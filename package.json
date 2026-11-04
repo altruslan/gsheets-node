@@ -1,0 +1,18 @@
+{
+  "name": "gsheets-node",
+  "version": "1.0.0",
+  "description": "Google Sheets + Drive module for parsers: sheets, rows as objects, upsert by key, CSV/XLSX import/export, file upload",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts", "src/", "tools/", "README.md"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/",
+    "oauth-token": "node tools/oauth-token.js"
+  },
+  "keywords": ["google-sheets", "google-drive", "spreadsheet", "parser"],
+  "license": "MIT",
+  "dependencies": {
+    "google-auth-library": "^10.9.1"
+  }
+}
